@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+
+        android:background="@drawable/per"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/text"
+android:textStyle="bold"
+            android:textColor="#040303"
+
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+
+            android:text="Text">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:background="#2196F3"
+            android:text="Share"
+
+            android:textColor="#fff"
+            android:textStyle="bold">
+
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
